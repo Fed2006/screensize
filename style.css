@@ -1,0 +1,28 @@
+p{
+    color:rgb(8, 196, 8);
+    text-align: center;
+    font-size: 40px
+}
+body{
+    background: rgb(172, 172, 211)
+}
+
+/* Mobile  -> 576px
+Tablet  -> 768px
+Laptop  -> 992px
+Desktop -> 1200px */
+
+@media screen and (min-width:576px){
+    body{
+        background: rgb(230, 202, 230)
+    }
+
+}
+@media screen and (min-width:768px){
+    body{
+        background: rgb(231, 231, 197)
+    }
+    p{
+        color: red
+    }
+}
